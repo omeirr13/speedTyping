@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Typing Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="centerDiv">
+            <h1>Welcome to Speed Typing Test!(1 minute)</h1>
+            <br>
+            <h1 style="display:inline-block">Timer: </h1>
+            <h1 style="display: inline-block; color:lightgreen"id="timer">60s</h1>
+            <br>
+            <div id="container">
+                <h3 id="msg" style="width:400px">Press start to generate text!</h3>
+            <br><br>
+            <textarea name="mywords" id="mywords" cols="100" rows="10" placeholder="Type here!" disabled></textarea><br>
+            </div>
+            <br><br>
+            <button id="btn" class="mainbtn">Start</button>
+        </div>
+    </div>
+    <br><br>
+    <div style="display:flex;justify-content: center;">
+        <h1 style="display:inline-block">Your typing speed is: </h1>
+        <h1 id="final" style="display:inline-block;"></h1>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
